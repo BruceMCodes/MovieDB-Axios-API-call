@@ -79,7 +79,7 @@ $(document).ready(() => {
             $("#layoutTwo").css('background-color', '');
             $("#layoutThree").css('background-color', '');
 
-            $("#main").css("grid-template-columns", "auto");
+            $("#main").css("grid-template-columns", "50%");
             $(".posterImg").css("display", "none");
         });
         $("#layoutTwo").on("click", () => {
