@@ -1,0 +1,57 @@
+/* 
+    Name: Bruce Marshall
+    Date: 10/30/2023
+    Filename: styles.css
+    Assignment: MovieDB & Axios 
+*/
+/********************************/
+/*Styling for the page*/
+body {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#info {
+    cursor: help;
+}
+div {
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+#main {
+    padding: 10px;
+    display: grid;
+    /* For the different layout, remove one of the following autos*/
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+}
+.imgDiv {
+    width: auto;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 10px;
+    border-style: inset;
+    text-align: center;
+}
+.layouts {
+    display: inline;
+    padding: 15px;
+}
+.imgDiv:hover {
+    cursor: pointer;
+}
+.layouts:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    box-shadow: 10px 5px;
+}
+.hideMe {
+    display: none;
+}
+/* For the different layout, uncomment .posterImg portion*/
+/* .posterImg {
+    display: none;
+} */
