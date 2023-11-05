@@ -79,6 +79,7 @@ $(document).ready(() => {
             $("#layoutTwo").css('background-color', '');
             $("#layoutThree").css('background-color', '');
 
+            $("body").css("font-family", "sans-serif")
             $("#main").css("grid-template-columns", "50%");
             $(".posterImg").css("display", "none");
         });
@@ -88,6 +89,7 @@ $(document).ready(() => {
             $("#layoutTwo").css('background-color', 'grey');
             $("#layoutThree").css('background-color', '');
 
+            $("body").css("font-family", "serif")
             $("#main").css("grid-template-columns", "auto auto");
             $(".posterImg").css("display", "");
         });
@@ -97,6 +99,7 @@ $(document).ready(() => {
             $("#layoutTwo").css('background-color', '');
             $("#layoutThree").css('background-color', 'grey');
 
+            $("body").css("font-family", "Copperplate, Papyrus, fantasy")
             $("#main").css("grid-template-columns", "auto auto auto");
             $(".posterImg").css("display", "");
         });
